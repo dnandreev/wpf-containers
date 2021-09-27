@@ -1,0 +1,18 @@
+﻿<Window x:Class="WrapPanel.MainWindow"
+		xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+		xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+		xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+		xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+		xmlns:local="clr-namespace:WrapPanel"
+		mc:Ignorable="d"
+		Title="Контейнер компоновки WrapPanel" Width="480" Height="360">
+	<WrapPanel Orientation="Vertical">
+		<TextBlock Margin="10" Padding="10" Background="LightGoldenrodYellow">TextBlock 1</TextBlock>
+		<TextBlock Margin="10" Padding="10" Background="LightBlue">TextBlock 2</TextBlock>
+		<TextBlock Margin="10" Padding="10" Background="LightGray">TextBlock 3</TextBlock>
+		<TextBlock Margin="10" Padding="10" Background="LightSteelBlue">TextBlock 4</TextBlock>
+		<TextBlock Margin="10" Padding="10" Background="LightCoral">TextBlock 5</TextBlock>
+		<TextBlock Margin="10" Padding="10" Background="Khaki">TextBlock 6</TextBlock>
+		<TextBlock Margin="10" Padding="10" Background="LightSeaGreen">TextBlock 7</TextBlock>
+	</WrapPanel>
+</Window>

@@ -1,0 +1,16 @@
+﻿<Window x:Class="DockPanel.MainWindow"
+		xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+		xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+		xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+		xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+		xmlns:local="clr-namespace:DockPanel"
+		mc:Ignorable="d"
+		Title="Контейнер компоновки DockPanel" Width="480" Height="320">
+	<DockPanel LastChildFill="True">
+		<TextBlock DockPanel.Dock="Top" Padding="10" Background="LightBlue">DockPanel.Dock="Top"</TextBlock>
+		<TextBlock DockPanel.Dock="Top" Padding="10" Background="LightBlue">Toolbar</TextBlock>
+		<TextBlock DockPanel.Dock="Bottom" Padding="10" Background="LightGreen">DockPanel.Dock="Bottom"</TextBlock>
+		<TextBlock DockPanel.Dock="Right" Padding="10" Background="LightCyan">DockPanel.Dock="Right"</TextBlock>
+		<TextBlock DockPanel.Dock="Left" Padding="10" Background="LightCoral">DockPanel.Dock="Left"</TextBlock>
+	</DockPanel>
+</Window>
